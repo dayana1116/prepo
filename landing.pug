@@ -8,9 +8,7 @@ mixin caja(imagen,titulo,contenido)
 			p=contenido
 doctype html
 html
-	head
-		meta(charset="UTF-8")
-		link(rel="stylesheet",href='css/ejercicio-pug.css')
+	include componentes/head.pug
 	body
 		header
 			h1 PlatziGames
